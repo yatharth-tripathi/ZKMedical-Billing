@@ -63,8 +63,9 @@ The application should be available at `http://localhost:8100`
 For visual reference of the working modules:
 
 ![MediToken Test Results](../poc-proj/screenshots/Frontend1.png)
-![Invoice Interface](../screenshots/frontend2.png)
+![Invoice Interface](../poc-proj/screenshots/frontend2.png)
 
+- 🏆 **Challenge Completed**: Successfully implemented token-gated access control and collaborative spreadsheet functionality
 - 🎥 **Demo Video**: A walkthrough of the complete system is available at [Demo Link](your-demo-link) will be updated soon . 
 
 ---
@@ -136,6 +137,10 @@ We leveraged the MediToken module from the ZKMedical-Billing repository to handl
 - On-chain voting mechanisms
 - Permission validation
 
+![Token Contract Information](../poc-proj/screenshots/POC.png)
+![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
+
+
 ### Web3 Features
 
 #### Smart Contract Interaction
@@ -147,6 +152,8 @@ We leveraged the MediToken module from the ZKMedical-Billing repository to handl
 - Gas-less permission validation
 - Secure action authorization
 - Efficient user experience
+
+
 
 #### Token Gating
 - Granular access control
