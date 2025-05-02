@@ -15,15 +15,7 @@ Before setting up the main project, you'll need to install and run two core modu
 
 The Medi_Token module provides the ERC-20 token contract used for access control. We have successfully tested the module with the following results:
 
-```
-Ran 3 tests for test/MediTokenTest.t.sol:MediTokenTest
-[PASS] testAllowances() (gas: 77115)
-[PASS] testBobBalance() (gas: 13696)
-[PASS] testTransfer() (gas: 45868)
-Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 10.81ms (2.29ms CPU time)
 
-Ran 1 test suite in 127.64ms (10.81ms CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
-```
 
 This verifies that our token implementation correctly handles:
 - Token allowances
