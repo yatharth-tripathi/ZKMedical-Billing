@@ -133,8 +133,6 @@ We leveraged the MediToken module from the ZKMedical-Billing repository to handl
 ![Token Contract Information](../poc-proj/screenshots/POC.png)
 ![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
 
-![Token Contract Information](../poc-proj/screenshots/POC.png)
-![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
 
 
 ### Web3 Features
@@ -173,6 +171,10 @@ if (userHasTokens >= requiredAmount) {
 }
 ```
 
+
+
+![Token Contract Information](../poc-proj/screenshots/POC.png)
+![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
 ## 🔮 Future Scope
 
 ### Planned Improvements
