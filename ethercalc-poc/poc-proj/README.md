@@ -200,6 +200,29 @@ if (userHasTokens >= requiredAmount) {
 - Community-driven scoring systems
 - Token-gated collaborative workspaces
 
+## 🎨 Previous Projects
+
+Explore some of my earlier Web3 projects that highlight my focus on scalable, user-friendly decentralized applications:
+
+### 🚀 [Buck Terminal](https://buck.aarambhlabs.xyz/)
+An AI-powered crypto assistant designed to simplify blockchain for users of all levels.
+
+**Highlights:**
+- Seamless crypto trading
+- Real-time AI market insights
+- Personalized suggestions
+- Unified portfolio dashboard
+- Secure, multi-chain transactions
+
+**Mission:** Make Web3 accessible through intelligent UX.
+
+### 📢 [DASHH](https://blinks.knowflow.study/)
+A decentralized advertising platform built around:
+- Micro-influencer marketing
+- zkTLS proofs for secure data
+- Solana Actions for programmable engagement
+
+DASHH merges blockchain with digital marketing for trust-based, scalable influencer campaigns.
 
 ---
 *Built with ❤️ for C4GT 2025*
