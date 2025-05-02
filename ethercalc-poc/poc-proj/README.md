@@ -175,6 +175,16 @@ if (userHasTokens >= requiredAmount) {
 
 ![Token Contract Information](../poc-proj/screenshots/POC.png)
 ![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
+
+DATA UPDATED IN ETHER-CALC 
+(../poc-proj/screenshots/ethercalc.png)
+
+
+DATA-FETCHED FROM  ETHER-CALC
+(../poc-proj/screenshots/local.png)
+
+PROPOSAL LIST UPDATED
+(../poc-proj/screenshots/proposallist.png)
 ## 🔮 Future Scope
 
 ### Planned Improvements
