@@ -29,15 +29,12 @@ Web3Calc reimagines collaborative spreadsheets by combining the power of Web3 wi
 ### Installation
 
 1. Clone the repository
-\`\`\`bash
 git clone https://github.com/yatharth-tripathi/ZKMedical-Billing/tree/main/ethercalc-poc/
 cd poc-proj
-\`\`\`
 
 2. Install dependencies
-\`\`\`bash
 npm install
-\`\`\`
+
 
 3. Create .env file
 \`\`\`env
