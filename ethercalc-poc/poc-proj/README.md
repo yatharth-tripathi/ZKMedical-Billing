@@ -7,6 +7,68 @@
 
 > A Web3-powered proof of concept demonstrating decentralized collaboration through token-gated Ethercalc integration.
 
+## 📋 Prerequisites & Dependencies 
+
+Before setting up the main project, you'll need to install and run two core modules:
+
+### 1. Medi_Token Module Setup
+
+The Medi_Token module provides the ERC-20 token contract used for access control. We have successfully tested the module with the following results:
+
+```
+Ran 3 tests for test/MediTokenTest.t.sol:MediTokenTest
+[PASS] testAllowances() (gas: 77115)
+[PASS] testBobBalance() (gas: 13696)
+[PASS] testTransfer() (gas: 45868)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 10.81ms (2.29ms CPU time)
+
+Ran 1 test suite in 127.64ms (10.81ms CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+```
+
+This verifies that our token implementation correctly handles:
+- Token allowances
+- Balance checking
+- Transfer functionality
+
+To replicate these test results:
+
+```bash
+cd Medi_Token
+make build   # Uses forge build
+make test    # Uses forge test
+```
+
+![MediToken Test Results](../poc-proj/screenshots/MediToken.png)
+
+The successful test results confirm our token contract is ready for integration with the Ethercalc system.
+
+### 2. Medical Invoice Ionic Module Setup
+
+This module provides the token-gated invoice interface:
+
+```bash
+cd ../medical-invoice-ionic-tokengated
+
+# Install dependencies
+npm install
+
+# Serve the application
+ionic serve
+```
+
+The application should be available at `http://localhost:8100`
+
+### Screenshots & Demo
+
+For visual reference of the working modules:
+
+![MediToken Test Results](../poc-proj/screenshots/Frontend1.png)
+![Invoice Interface](../screenshots/frontend2.png)
+
+- 🎥 **Demo Video**: A walkthrough of the complete system is available at [Demo Link](your-demo-link) will be updated soon . 
+
+---
+
 ## 🎯 Project Overview
 
 Web3Calc reimagines collaborative spreadsheets by combining the power of Web3 with Ethercalc's real-time editing capabilities. This PoC demonstrates how decentralized identity and token-based permissions can enhance collaborative data management while maintaining the familiar spreadsheet interface.
@@ -29,29 +91,29 @@ Web3Calc reimagines collaborative spreadsheets by combining the power of Web3 wi
 ### Installation
 
 1. Clone the repository
-\`\`\`bash
+```bash
 git clone https://github.com/yourusername/web3calc.git
 cd web3calc/ethercalc-poc/poc-proj
-\`\`\`
+```
 
 2. Install dependencies
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 3. Create .env file
-\`\`\`env
+```env
 VITE_ETHERCALC_URL=https://ethercalc.net
 VITE_ETHERCALC_SHEET_ID=your_sheet_id
 VITE_CONTRACT_ADDRESS=your_contract_address
 VITE_ALCHEMY_ID=your_alchemy_id
 VITE_WALLETCONNECT_PROJECT_ID=your_project_id
-\`\`\`
+```
 
 4. Start the development server
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 ## 💡 Approach & Architecture
 
@@ -103,13 +165,13 @@ We leveraged the MediToken module from the ZKMedical-Billing repository to handl
 - On-chain data synchronization
 
 ### Permission Logic
-\`\`\`
+```javascript
 if (userHasTokens >= requiredAmount) {
     allowEdit(cellRange);
 } else {
     readOnlyAccess(cellRange);
 }
-\`\`\`
+```
 
 ## 🔮 Future Scope
 
@@ -125,7 +187,6 @@ if (userHasTokens >= requiredAmount) {
 - DAO treasury tracking
 - Community-driven scoring systems
 - Token-gated collaborative workspaces
-
 
 ## 📄 License
 
