@@ -57,6 +57,7 @@ For visual reference of the working modules:
 ![MediToken Test Results](../poc-proj/screenshots/Frontend1.png)
 ![Invoice Interface](../poc-proj/screenshots/frontend2.png)
 
+
 - 🏆 **Challenge Completed**: Successfully implemented token-gated access control and collaborative spreadsheet functionality
 - 🎥 **Demo Video**: A walkthrough of the complete system is available at [Demo Link](your-demo-link) will be updated soon . 
 
@@ -170,6 +171,20 @@ if (userHasTokens >= requiredAmount) {
 }
 ```
 
+
+
+![Token Contract Information](../poc-proj/screenshots/POC.png)
+![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
+
+### EtherCalc Integration Screenshots
+![Data Updated in EtherCalc](../poc-proj/screenshots/ethercalc.png)
+*Demonstrating real-time data updates in EtherCalc*
+
+![Data Fetched from EtherCalc](../poc-proj/screenshots/local.png)
+*Showing successful data retrieval from EtherCalc integration*
+
+![Proposal List Updated](../poc-proj/screenshots/proposallist.png)
+*Current state of proposal tracking system*
 ## 🔮 Future Scope
 
 ### Planned Improvements
@@ -185,9 +200,6 @@ if (userHasTokens >= requiredAmount) {
 - Community-driven scoring systems
 - Token-gated collaborative workspaces
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 *Built with ❤️ for C4GT 2025*
