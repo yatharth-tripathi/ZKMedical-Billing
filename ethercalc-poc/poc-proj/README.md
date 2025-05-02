@@ -56,6 +56,8 @@ For visual reference of the working modules:
 
 ![MediToken Test Results](../poc-proj/screenshots/Frontend1.png)
 ![Invoice Interface](../poc-proj/screenshots/frontend2.png)
+![Token Contract Information](../poc-proj/screenshots/POC.png)
+![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
 
 - 🏆 **Challenge Completed**: Successfully implemented token-gated access control and collaborative spreadsheet functionality
 - 🎥 **Demo Video**: A walkthrough of the complete system is available at [Demo Link](your-demo-link) will be updated soon . 
