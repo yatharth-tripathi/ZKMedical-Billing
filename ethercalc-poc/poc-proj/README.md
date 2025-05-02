@@ -132,12 +132,6 @@ We leveraged the MediToken module from the ZKMedical-Billing repository to handl
 ![Token Contract Information](../poc-proj/screenshots/POC.png)
 ![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
 
-(../poc-proj/screenshots/ethercalc.png)
-
-(../poc-proj/screenshots/local.png)
-
-
-(../poc-proj/screenshots/proposallist.png)
 
 
 ### Web3 Features
