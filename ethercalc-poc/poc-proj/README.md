@@ -46,7 +46,7 @@ VITE_WALLETCONNECT_PROJECT_ID=your_project_id
 \`\`\`
 
 4. Start the development server
-\`\`\`bash
+\`\`\`
 npm run dev
 \`\`\`
 
