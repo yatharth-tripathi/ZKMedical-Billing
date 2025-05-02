@@ -130,11 +130,6 @@ We leveraged the MediToken module from the ZKMedical-Billing repository to handl
 - On-chain voting mechanisms
 - Permission validation
 
-![Token Contract Information](../poc-proj/screenshots/POC.png)
-![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
-
-
-
 ### Web3 Features
 
 #### Smart Contract Interaction
