@@ -3,7 +3,7 @@
 [![Built with React](https://img.shields.io/badge/Built%20with-React-61dafb.svg)](https://reactjs.org/)
 [![Uses Ethers.js](https://img.shields.io/badge/Uses-Ethers.js-blue.svg)](https://docs.ethers.org/v6/)
 [![Powered by Ethercalc](https://img.shields.io/badge/Powered%20by-Ethercalc-green.svg)](https://ethercalc.net/)
-[![Submission Status](https://img.shields.io/badge/C4GT-Submitted-brightgreen.svg)](https://c4gt.org/)
+
 
 > A Web3-powered proof of concept demonstrating decentralized collaboration through token-gated Ethercalc integration.
 
@@ -91,15 +91,12 @@ Web3Calc reimagines collaborative spreadsheets by combining the power of Web3 wi
 ### Installation
 
 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/web3calc.git
-cd web3calc/ethercalc-poc/poc-proj
-```
+git clone https://github.com/yatharth-tripathi/ZKMedical-Billing/tree/main/ethercalc-poc/
+cd poc-proj
 
 2. Install dependencies
-```bash
 npm install
-```
+
 
 3. Create .env file
 ```env
@@ -111,7 +108,7 @@ VITE_WALLETCONNECT_PROJECT_ID=your_project_id
 ```
 
 4. Start the development server
-```bash
+\`\`\`
 npm run dev
 ```
 
