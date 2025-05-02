@@ -58,7 +58,7 @@ For visual reference of the working modules:
 ![Invoice Interface](../poc-proj/screenshots/frontend2.png)
 
 
-- 🏆 **Challenge Completed**: Successfully implemented token-gated access control and collaborative spreadsheet functionality
+- 🏆 **Challenge Completed**
 - 🎥 **Demo Video**: A walkthrough of the complete system is available at [Demo Link](your-demo-link) will be updated soon . 
 
 ---
@@ -129,11 +129,6 @@ We leveraged the MediToken module from the ZKMedical-Billing repository to handl
 - Token-based access control
 - On-chain voting mechanisms
 - Permission validation
-
-![Token Contract Information](../poc-proj/screenshots/POC.png)
-![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
-
-
 
 ### Web3 Features
 
