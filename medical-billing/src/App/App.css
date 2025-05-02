@@ -50,3 +50,26 @@ button {
   margin-left: 5px;
   margin-right: 5px;
 }
+
+/* Ensure full screen display */
+#tableeditor {
+  position: fixed;
+  top: 60px; /* Leave space for header */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: calc(100vh - 60px);
+  overflow: auto;
+}
+
+#workbookControl {
+  position: relative;
+  z-index: 100;
+}
+
+/* Adjust container to be full width/height */
+#te_griddiv {
+  width: 100% !important;
+  height: 100% !important;
+}
