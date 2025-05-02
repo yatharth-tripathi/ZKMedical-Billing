@@ -176,15 +176,15 @@ if (userHasTokens >= requiredAmount) {
 ![Token Contract Information](../poc-proj/screenshots/POC.png)
 ![Collaborative Spreadsheet](../poc-proj/screenshots/POC2.png)
 
-DATA UPDATED IN ETHER-CALC 
-(../poc-proj/screenshots/ethercalc.png)
+### EtherCalc Integration Screenshots
+![Data Updated in EtherCalc](../poc-proj/screenshots/ethercalc.png)
+*Demonstrating real-time data updates in EtherCalc*
 
+![Data Fetched from EtherCalc](../poc-proj/screenshots/local.png)
+*Showing successful data retrieval from EtherCalc integration*
 
-DATA-FETCHED FROM  ETHER-CALC
-(../poc-proj/screenshots/local.png)
-
-PROPOSAL LIST UPDATED
-(../poc-proj/screenshots/proposallist.png)
+![Proposal List Updated](../poc-proj/screenshots/proposallist.png)
+*Current state of proposal tracking system*
 ## 🔮 Future Scope
 
 ### Planned Improvements
