@@ -109,11 +109,11 @@ npm run dev
 ## 💡 Approach & Architecture
 
 ### Technical Stack
-- **Frontend**: React + Vite
-- **Web3**: RainbowKit, wagmi, ethers.js
-- **Styling**: TailwindCSS
-- **Collaborative Editing**: Ethercalc
-- **Smart Contracts**: MediToken (ERC-20)
+- Frontend: React + Vite
+- Web3: RainbowKit, wagmi, ethers.js
+- Styling: TailwindCSS
+- Collaborative Editing: Ethercalc
+- Smart Contracts: MediToken (ERC-20)
 
 ### Integration Flow
 1. Users connect their Web3 wallet
